@@ -21,7 +21,7 @@ if (arr1.length < arr2.length) {
 }
 //Calcolo la differenza e aggiungo gli elementi restanti
 let index = 0;
-while (index === difference) {
+while (index != difference) {
   if (maggiore === "arr2")
     arr1.push("Elemento");
   else
