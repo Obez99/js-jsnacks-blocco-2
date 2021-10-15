@@ -1,4 +1,4 @@
-/*Primo esercizio*/
+//Primo esercizio
 /*****************/
 //Inserire un numero
 const numero = parseInt(prompt("Inserire un numero"))
