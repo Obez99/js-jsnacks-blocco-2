@@ -15,11 +15,9 @@ let difference = 0;
 if (arr1.length < arr2.length) {
   difference = arr2.length - arr1.length;
   maggiore = "arr2";
-  console.log(difference);
 } else {
   difference = arr1.length - arr2.length;
-  maggiore = "arr1"
-  console.log(difference);
+  maggiore = "arr1";
 }
 //Calcolo la differenza e aggiungo gli elementi restanti
 let index = 0;
@@ -28,7 +26,7 @@ while (index === difference) {
     arr1.push("Elemento");
   else
     arr2.push("Elemento")
-  i++
+  index++;
 }
 
 console.log(arr1);
