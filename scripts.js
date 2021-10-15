@@ -1,3 +1,5 @@
+/*Primo esercizio*/
+/*****************/
 //Inserire un numero
 const numero = parseInt(prompt("Inserire un numero"))
 //Controllare che sia pari
@@ -8,3 +10,4 @@ if (numero % 2 === 0) {
   //Se è dispari stampare il numero successivo
   alert(numero + 1);
 }
+/*****************/
